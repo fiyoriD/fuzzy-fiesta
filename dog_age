@@ -1,0 +1,15 @@
+#include<iostream>
+  #include<string>
+  int main(){
+  int dog_age;
+  std::cout<< "Enter your Dogs age"<<endl;
+  std::cin>>dog_age;
+  int early_years=21;// the first two dog years are 21 as human year
+  int later_year=(dog_age-2)*4;// after the two year all dog yeras are 4 as human year
+  int human_year= later_year+early_years; 
+  std::string name; 
+  std::cout<<" Enter you dog name :"<<endl;
+  std::cin>>name
+cout<<" My name is "<<name << " ! Ruff ruff, I am "<< human_years<< "years old in human years."<<std::endl;
+  return 0;
+}
